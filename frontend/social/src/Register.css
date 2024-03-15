@@ -1,0 +1,64 @@
+/* Styles for Home Register Link */
+body{
+  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-018.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 695px;
+	position:relative;
+	background-position: center;
+}
+;
+.home-register {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Styles for Register Container */
+.register-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for Register Form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.register-form input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-form button {
+  padding: 12px 0;
+  background-color: #7531c9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #370756;
+}
